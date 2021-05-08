@@ -1,12 +1,5 @@
 # flask prac
 
-- 플라스크 시작코드
-  from flask import Flask
-  app = Flask(**name**)
+- Flask 프레임워크: 서버를 구동 시켜주는 편한 코드 모음.
 
-  @app.route('/')
-  def home():
-  return 'This is Home!'
-
-  if **name** == '**main**':  
-   app.run('0.0.0.0',port=5000,debug=True)
+  - 통상적으로 프레임워크는 하나를 쓰고 그 안에서 원하는 만큼의 라이브러리를 가져다 쓸 수 있다.
